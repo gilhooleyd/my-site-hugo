@@ -1,0 +1,46 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Gilhooley
+paginate: 5
+theme: "PaperMod"
+
+enableRobotsTXT: true
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+    - name: About Me
+      url: about
+
+params:
+  ShowShareButtons: true
+  ShowReadingTime: true
+
+  homeInfoParams:
+    Title: "Welcome!"
+    Content: >
+      My name is David Gilhooley and I'm a programmer interested in operating systems.
+      My goal is to make hardware more understandable, more secure, and more fun to hack on.
+      I currently work on  **[Fuchsia](fuchsia.dev)**, Google's new OS.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/gilhooleyd"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/david-gilhooley/"
+    - name: twitter
+      url: "https://twitter.com/gilhooligan3"
+    - name: RsS
+      url: "index.xml"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
