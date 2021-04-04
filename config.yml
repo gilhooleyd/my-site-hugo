@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://gilhooleyd.github.io/
 languageCode: en-us
 title: Gilhooley
 paginate: 5
@@ -10,10 +10,6 @@ menu:
     - name: Archive
       url: archives
       weight: 5
-    - name: Search
-      url: search/
-    - name: About Me
-      url: about
 
 params:
   ShowShareButtons: true
